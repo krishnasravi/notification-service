@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: notification-service
-        image: krishnasravi/notification-service:v3
+        image: krishnasravi/notification-service:v1.1
         ports:
         - containerPort: 8082
 #        resources:
